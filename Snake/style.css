@@ -1,21 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+body {
+  background: #9308F7;
+  background: -moz-linear-gradient(left, #9308F7 0%, #6405A8 50%, #9308F7 100%);
+  background: -webkit-linear-gradient(left, #9308F7 0%, #6405A8 50%, #9308F7 100%);
+  background: linear-gradient(to right, #9308F7 0%, #6405A8 50%, #9308F7 100%);
+  font-family: 'Righteous', cursive;
+
+}
+
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.wrapper-2 {
+  text-align: center;
+  margin: 30px;
+}
+
 .grid {
-  width: 200px;
-  height: 200px;
+  width: 400px;
+  height: 400px;
   display: flex;
   flex-wrap: wrap;
-  border-style: solid;
+  background-color: white;
+  border: 3px solid pink;
 }
 
 .grid div {
-  width: 20px;
-  height: 20px;
+  width: 40px;
+  height: 40px;
   border-radius:7px;
 }
 
 .snake {
-  background-color: blue;
+  background-color: #F79308;
 }
 
 .apple {
-  background-color: purple;
+  
+  background-image: url('apple.png');
+  background-size: cover;
+}
+
+h2 {
+  font-size: 100px;
+  font-weight: bold;
+  color: white;
+  text-shadow: 2px 2px 3px #000000;
+}
+
+.start {
+  padding: 1rem;
+  border-radius: 10%;
+  font-size: 1rem;
+  background-color: #6CF708;
+}
+
+.score {
+  color: white;
+  margin: 10px;
+  font-size: 1.8rem;
 }
