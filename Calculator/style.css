@@ -1,0 +1,94 @@
+body{
+    background-color: black;
+}
+
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: aquamarine;
+    width: 50%;
+    height: calc(100vh - 16px);
+    margin: 0px auto;
+    border-radius: 20px;
+    flex-direction: column;
+}
+
+input{
+    background: greenyellow;
+    border: 1px solid;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    width: 40%;
+    padding: 10px;
+}
+
+.numbers, .sign{
+    display: inline-block;
+    padding: 30px;
+    background: blue;
+    border-radius: 10px;
+    margin: 7px;
+}
+
+.nums{
+    display: inline-block;
+    width: 45%;
+}
+
+.sign{
+    background-color: green;
+}
+
+.ac{
+    background-color: red;
+}
+
+
+
+@media screen and (max-width:767px){
+    body{
+        background-color: black;
+    }
+    
+    .main{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: aquamarine;
+        width: 100%;
+        height: calc(100vh - 16px);
+        margin: 0px auto;
+        border-radius: 20px;
+        flex-direction: column;
+    }
+    
+    .numbers, .sign{
+        display: inline-block;
+        padding: 7px;
+        background: blue;
+        border-radius: 10px;
+        margin: 3px;
+        width: 20px;
+        text-align: center;
+    }
+    
+    .nums{
+        display: inline-block;
+        width: 50%;
+    }
+    
+    .sign{
+        background-color: green;
+    }
+    
+    .ac{
+        background-color: red;
+    }
+    input{
+    background: greenyellow;
+    border: 1px solid;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    }
+}
